@@ -3,9 +3,13 @@
 ## 설치
 
 1. 이 모드의 최신 버전을 다운로드 받습니다.
+
 <img width="497" height="401" alt="image" src="https://github.com/user-attachments/assets/140c11ea-286d-49e3-9643-13e3fa5f28d8" />
+
 2. 스팀의 라이브러리에서 Rift Wizard 3를 우클릭 -> 관리 -> 로컬 파일 탐색
+
 <img width="583" height="406" alt="image" src="https://github.com/user-attachments/assets/b0c76ecb-9dcb-4495-8085-f72e184fd2a9" />
+
 3. 다운로드 받은 파일의 압축을 해제하고, mods폴더에 넣습니다.
 **중요** 압축 해제된 폴더를 열었을 때 Core폴더가 바로 보여야합니다. RW3KoreanSanzuRiverr 폴더가 보인다면 해당 폴더를 mods폴더에 넣으세요.
 4. 메인 메뉴에서 MODS를 클릭합니다.
