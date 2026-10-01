@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "families": [
+    {
+      "name": "LightningFormBuff",
+      "source": "Spells.py:LightningFormBuff.get_description",
+      "starts": [
+        "When you cast a [Lightning] or [Fire] spell, if the target tile is unoccupied, teleport to that tile",
+        "When you cast a [Lightning] spell, if the target tile is unoccupied, teleport to that tile"
+      ],
+      "clauses": {
+        "When you cast a [Lightning] spell, if the target tile is unoccupied, teleport to that tile": "[번개:lightning] 주문을 시전했을 때 대상 칸이 비어 있으면 그 칸으로 순간이동한다",
+        "Lose this buff the first turn you do not cast a [Lightning] spell on your turn": "자신의 턴에 [번개:lightning] 주문을 시전하지 않으면 이 강화 효과가 사라진다",
+        "Each turn Lightning Form remains active, [Lightning] spells and equipment gain 10% [damage]": "\"번개 형상\"가 유지되는 동안 매 턴 [번개:lightning] 주문과 장비의 [피해:damage] 보너스가 10%씩 증가한다",
+        "Each turn, deal [{damage}:damage] [Lightning] damage to up to [{num_targets}:num_targets] enemies within [{radius}:radius] tiles": "매 턴 [{radius}:radius]칸 이내의 적 최대 [{num_targets}:num_targets]체에게 [번개:lightning] 피해를 [{damage}:damage] 입힌다",
+        "If you do not cast a [Lightning] spell on your turn, this buff lasts 3 more turns": "자신의 턴에 [번개:lightning] 주문을 시전하지 않아도 이 강화 효과가 3턴 더 지속된다",
+        "When you cast a [Lightning] or [Fire] spell, if the target tile is unoccupied, teleport to that tile": "[번개:lightning] 또는 [화염:fire] 주문을 시전했을 때 대상 칸이 비어 있으면 그 칸으로 순간이동한다",
+        "Lose this buff the first turn you do not cast a [Lightning] or [Fire] spell on your turn": "자신의 턴에 [번개:lightning] 또는 [화염:fire] 주문을 시전하지 않으면 이 강화 효과가 사라진다",
+        "If you do not cast a [Lightning] or [Fire] spell on your turn, this buff lasts 3 more turns": "자신의 턴에 [번개:lightning] 또는 [화염:fire] 주문을 시전하지 않아도 이 강화 효과가 3턴 더 지속된다"
+      }
+    },
+    {
+      "name": "DemonFormBuff",
+      "source": "Spells.py:DemonFormBuff.get_description",
+      "starts": [
+        "Gain flying"
+      ],
+      "clauses": {
+        "Gain flying": "비행 능력을 얻는다",
+        "Each turn, your other [Chaos] spells regain 1 charge": "매 턴 자신의 다른 [혼돈:Chaos] 주문의 사용 횟수가 1씩 회복된다",
+        "If you lose this buff while over a chasm, unless you have other methods of flight, you will be deposited at the nearest valid tile": "심연 위에서 이 효과가 끝날 때 다른 비행 수단이 없다면 가장 가까운 이동 가능한 칸으로 이동한다",
+        "If no such tile exists, fall to your death": "이동 가능한 칸이 없다면 추락하여 죽는다",
+        "When an enemy is slain by [Fire], [Lightning], or [Physical] damage, summon a Chaos Imp at its location": "적이 [화염:Fire], [번개:Lightning] 또는 [물리:Physical] 피해로 죽으면 그 자리에 혼돈의 임프를 소환한다",
+        "When another unit takes [Dark] damage, it loses 1 max HP and you heal 1 HP": "다른 유닛이 [암흑:Dark] 피해를 받으면 그 유닛의 최대 HP가 1 감소하고 자신의 HP가 1 회복된다",
+        "If your HP is full, gain 1 [SH:shields] instead": "자신의 HP가 가득 차 있다면 대신 [보호막 1개:shields]를 얻는다"
+      }
+    },
+    {
+      "name": "ArcaneWardingBuff",
+      "source": "Spells.py:ArcaneWardingBuff.get_description",
+      "starts": [
+        "Each turn, gain [{shields} SH:shields]"
+      ],
+      "clauses": {
+        "Each turn, gain [{shields} SH:shields]": "매 턴 [보호막 {shields}개:shields]를 얻는다",
+        "When enemy damage is blocked by your shields, reflect that damage to the source": "보호막으로 적의 피해를 막으면 그 피해를 가한 적에게 반사한다",
+        "If Arcane Warding kills a unit, extend its duration by 3 turns": "이 효과로 유닛을 처치하면 지속시간이 3턴 늘어난다",
+        "Relfected damage is double the blocked damage": "반사 피해가 막은 피해량의 두 배가 된다",
+        "Reflected damage uses a type the attacker is most vulnerable to": "반사 피해의 속성이 공격자의 저항이 가장 낮은 속성으로 바뀐다",
+        "When Arcane Warding reflects damage, heal half the blocked damage": "피해를 반사하면 막은 피해량의 절반만큼 자신의 HP를 회복한다"
+      }
+    },
+    {
+      "name": "WatcherFormBuff",
+      "source": "Spells.py:WatcherFormBuff.get_description",
+      "starts": [
+        "Each turn, cast Lightning Bolt at the farthest enemy in line of sight"
+      ],
+      "clauses": {
+        "Each turn, cast Lightning Bolt at the farthest enemy in line of sight": "매 턴 시야 내에서 가장 먼 적에게 \"번개 화살\"을 시전한다",
+        "Cannot move or manually cast spells": "이동하거나 직접 주문을 시전할 수 없다",
+        "Also casts Silver Spear": "\"은빛 창\"도 시전한다",
+        "Also casts Pyrostatic Pulse": "\"화염 정전기의 맥동\"도 시전한다",
+        "Also casts Void Beam": "\"공허의 광선\"도 시전한다",
+        "Also casts Chain Lightning": "\"연쇄 번개\"도 시전한다"
+      }
+    },
+    {
+      "name": "PsychicParasiteBuff",
+      "source": "Spells.py:PsychicParasiteBuff.get_description",
+      "starts": [
+        "Take [{damage}:damage] [Arcane] damage each turn"
+      ],
+      "clauses": {
+        "Take [{damage}:damage] [Arcane] damage each turn": "매 턴 [{damage}:damage]의 [비전:Arcane] 피해를 입는다",
+        "On death, summon a Brain Tree at its location": "죽으면 그 자리에 뇌 나무를 소환한다",
+        "On death, summon [{num_summons}:num_summons] Brain Trees at its location": "죽으면 그 자리에 뇌 나무 [{num_summons}:num_summons]체를 소환한다"
+      }
+    },
+    {
+      "name": "ReviewedBuff54_5",
+      "source": "Spells.py:get_description",
+      "starts": [
+        "Each turn, pull enemies within [{radius}:radius] tiles 1 tile toward the owner"
+      ],
+      "clauses": {
+        "Each turn, pull enemies within [{radius}:radius] tiles 1 tile toward the owner": "매 턴 [{radius}:radius]칸 이내의 적을 이 효과를 가진 유닛 쪽으로 1칸 끌어당긴다",
+        "Adjacent enemies take [{damage}:damage] [Lightning] damage": "인접한 적은 [{damage}:damage]의 [번개:Lightning] 피해를 입는다"
+      }
+    },
+    {
+      "name": "ReviewedBuff54_6",
+      "source": "Spells.py:get_description",
+      "starts": [
+        "Immune to debuffs"
+      ],
+      "clauses": {
+        "Immune to debuffs": "약화 효과에 면역이 된다",
+        "Casting a [Holy] spell extends Purity by 3 turns": "[신성:Holy] 주문을 시전하면 \"순수\"의 지속시간이 3턴 늘어난다"
+      }
+    },
+    {
+      "name": "SlimeformBuff",
+      "source": "Spells.py:SlimeformBuff.get_description",
+      "starts": [
+        "Each turn, summon a Green Slime",
+        "Each turn, summon a Red Slime",
+        "Each turn, summon an Ice Slime",
+        "Each turn, summon an Electric Slime",
+        "Each turn, summon a Void Slime",
+        "Each turn, summon a Blood Slime"
+      ],
+      "clauses": {
+        "Each turn, summon a Green Slime": "매 턴 녹색 슬라임을 소환한다",
+        "Each turn, summon a Red Slime": "매 턴 붉은 슬라임을 소환한다",
+        "Each turn, summon an Ice Slime": "매 턴 얼음 슬라임을 소환한다",
+        "Each turn, summon an Electric Slime": "매 턴 전기 슬라임을 소환한다",
+        "Each turn, summon a Void Slime": "매 턴 공허의 슬라임을 소환한다",
+        "Each turn, summon a Blood Slime": "매 턴 피의 슬라임을 소환한다",
+        "Each turn, summon [{num_summons}:num_summons] additional random slimes": "매 턴 무작위 슬라임 [{num_summons}:num_summons]체를 추가로 소환한다",
+        "Additional random slimes can be any slime type and can repeat": "추가 슬라임은 모든 슬라임 종류 중에서 선택되며 같은 종류가 중복될 수 있다"
+      }
+    }
+  ],
+  "generated_names": [
+    "Ice Frenzy",
+    "Arcane Frenzy",
+    "Fire Frenzy",
+    "Twilight Weakness",
+    "Purity Weakness",
+    "Crystal Weakness",
+    "Pyrostatic Weakness",
+    "Void Weakness",
+    "Storm Weakness",
+    "Physical Weakness",
+    "Fire Weakness",
+    "Ice Weakness",
+    "Lightning Weakness",
+    "Dark Weakness",
+    "Holy Weakness",
+    "Arcane Weakness",
+    "Poison Weakness",
+    "Dark or Poison",
+    "Arcane or Dark",
+    "Fire or Holy",
+    "Dark or Fire",
+    "Ice or Dark or Lightning",
+    "Dark or Arcane",
+    "Poison or Dark",
+    "Holy or Arcane",
+    "Holy or Fire",
+    "Summon Bat",
+    "Ice Bomber Spawner",
+    "Void Bomber Spawner",
+    "Satyr Spawner",
+    "Large Worm Ball Spawner",
+    "Rotting Zombie Spawner",
+    "Displacer Beast Spawner",
+    "Fire Bomber Spawner",
+    "Horned Toad Spawner",
+    "Kobold Spawner",
+    "Summon Large Worm Ball",
+    "Summon Rotting Zombie",
+    "Summon Displacer Beast",
+    "Summon Horned Toad",
+    "Dark or Holy",
+    "Summon Faeries",
+    "Metallic Damage Bonus",
+    "Metallic Range Bonus",
+    "Skeletal Raven Mage",
+    "Skeletal Raven",
+    "Skeletal Stonefish",
+    "Skeletal Stalker",
+    "Skeletal Goblin Shaman",
+    "Sorcery Damage Bonus",
+    "Furnace Fiend Spawner",
+    "Skeletal Frostfire Mage",
+    "Skeletal Dryder",
+    "Skeletal Slime Brewer",
+    "Ruinous Magic Missile",
+    "Ruinous Annihilate",
+    "Ruinous Purity",
+    "Ruinous Demon Form",
+    "Ruinous Cantrip Cascade"
+  ]
+}
