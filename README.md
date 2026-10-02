@@ -12,6 +12,8 @@
 
 3. 다운로드 받은 파일의 압축을 해제하고, mods폴더에 넣습니다.
 **중요** 압축 해제된 폴더를 열었을 때 Core폴더가 바로 보여야합니다. RW3KoreanSanzuRiverr 폴더가 보인다면 해당 폴더를 mods폴더에 넣으세요.
+혹시 폴더 이름에 -main이 보인다면 지워주세요. 폴더명이 RW3KoreanSanzuRiverr으로 돼있어야 정상인식 됩니다.
+
 4. 메인 메뉴에서 MODS를 클릭합니다.
 5. RW3KoreanSanzuRiverr 모드를 ENABLED에 놓습니다.
 6. 게임을 재시작하고, OPTIONS -> Language Select 에서 한글을 선택합니다.
