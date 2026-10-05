@@ -16,7 +16,7 @@ def load_proper_names():
         en, ko, kinds = row.get('en'), row.get('ko'), row.get('kinds')
         if (not isinstance(en, str) or not en or not isinstance(ko, str) or not ko
                 or not isinstance(kinds, list) or not kinds
-                or not set(kinds) <= {'spell', 'equipment', 'unit', 'status'} or en in result):
+                or not set(kinds) <= {'spell', 'equipment', 'unit', 'status', 'attribute', 'effect'} or en in result):
             raise ValueError('고유명사 용어표 항목 오류: ' + repr(en))
         result[en] = row
     return result

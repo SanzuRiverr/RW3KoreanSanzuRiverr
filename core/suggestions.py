@@ -57,8 +57,8 @@ def _protect(source, catalog, proper_names=None):
              and (name in proper_names or name != value) and ((name in proper_names) or (2 <= len(name) <= 70
              and len(name.split()) <= 8 and re.fullmatch(r"[A-Za-z][A-Za-z '\-]*", name)))
              and not any(c in value for c in '{}[]') and name in source]
-    # Protect audited names first so an old full-sentence catalog entry cannot
-    # override a corrected name embedded in that sentence.
+
+
     for group in ([name for name in names if name in proper_names],
                   [name for name in names if name not in proper_names]):
         if not group:

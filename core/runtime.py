@@ -27,8 +27,8 @@ def _preflight(main):
     for file in (FONT_PATH, TSV_PATH):
         if not Path(file).is_file():
             raise RuntimeError('Required file missing: ' + str(file))
-    # Read the same saved selection as the game, so conflict detection works
-    # whether this derivative or the upstream mod is imported first.
+
+
     if not hasattr(main, 'load_saved_options'):
         raise RuntimeError('Game compatibility: load_saved_options is missing')
     selected = main.load_saved_options().get('enabled_mods', [])

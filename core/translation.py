@@ -198,8 +198,8 @@ class LanguageAdapter:
             result = (result.format(**values) if values else result) if missing else format_korean(result, values)
             if self.observer:
                 self.observer(message, result, values, missing)
-            # The upstream auto-writer targets JSON, whereas Korean uses this
-            # mutable TSV catalog. Do not send misses to that incompatible file.
+
+
             return result
         return self.original_translate(message, **values)
 

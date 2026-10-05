@@ -20,8 +20,8 @@ class TranslationEditor:
         self.pg = main.pygame
         self.store = TranslationEditorStore(path or Path('mod_data') / MOD_ID / 'translation_editor.json', catalog)
         self.catalog = catalog
-        # Reconcile historical misses now handled by dynamic labels or portal
-        # name recovery; keep unresolved records and never alter user overrides.
+
+
         aliases = portal_aliases(catalog)
         self.portal_aliases = aliases
         previous_missing = dict(self.store.missing)

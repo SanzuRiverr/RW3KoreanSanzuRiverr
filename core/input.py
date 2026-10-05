@@ -109,8 +109,8 @@ def _patch_korean_ime(main):
         def focus(view, focused, clear=False):
             state = states(view).get(query_attr)
             if state is not None and (clear or not focused):
-                # Leaving normally accepts the displayed syllable; explicit
-                # cancellation retains the original clear=True behavior.
+
+
                 state.update(text='', visible=None)
             if getattr(view, query_attr, None) is not None and not focused:
                 view.repeat_keys.clear()
@@ -125,7 +125,7 @@ def _patch_korean_ime(main):
     def draw_search_bar(view, panel, x, y, query, focused):
         if loc.get_locale() != LANG_CODE or not focused:
             return original_draw(view, panel, x, y, query, focused)
-        # Match the original background/label geometry without its idle hint.
+
         label = main.resolve_text('Search:')
         view.draw_string(label, panel, x, y, pre_resolved=True)
         bar = main.get_image(['ui', 'search_bar'])

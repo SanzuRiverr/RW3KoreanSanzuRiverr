@@ -4,6 +4,7 @@ from .config import LANG_CODE
 
 def install_custom_text(main):
     import Localisation as loc
+    install_periodic_rule_name(loc)
     cls = main.PyGameView
     original = cls.get_placeholder_description
 
@@ -16,8 +17,8 @@ def install_custom_text(main):
             return description
         instance = param() if callable(param) else param
         name = getattr(instance, 'name', str(instance))
-        # The original replaces English names *after* resolving the description.
-        # Repeat that replacement with the localized name in the preview only.
+
+
         localized = loc.T(str(name))
         if localized and localized != str(name):
             description = description.replace(localized, 'X')
@@ -25,3 +26,22 @@ def install_custom_text(main):
 
     cls.get_placeholder_description = placeholder
     return True
+
+
+def install_periodic_rule_name(loc):
+    """Resolve the configured interval on access, including existing save objects."""
+    from Mutators import EveryXTurnsBuff
+    if isinstance(EveryXTurnsBuff.__dict__.get('name'), property):
+        return
+
+    def name(self):
+        original = self.__dict__.get('name', 'EveryXTurnsBuff')
+        if loc.get_locale() != LANG_CODE or original != 'EveryXTurnsBuff':
+            return original
+        return loc.T('Every {interval} turns: trigger mutator rule',
+                     interval=getattr(self, 'interval', 'X'))
+
+    def set_name(self, value):
+        self.__dict__['name'] = value
+
+    EveryXTurnsBuff.name = property(name, set_name)

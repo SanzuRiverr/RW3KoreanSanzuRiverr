@@ -3,7 +3,6 @@
   "families": [
     {
       "name": "LightningFormBuff",
-      "source": "Spells.py:LightningFormBuff.get_description",
       "starts": [
         "When you cast a [Lightning] or [Fire] spell, if the target tile is unoccupied, teleport to that tile",
         "When you cast a [Lightning] spell, if the target tile is unoccupied, teleport to that tile"
@@ -21,7 +20,6 @@
     },
     {
       "name": "DemonFormBuff",
-      "source": "Spells.py:DemonFormBuff.get_description",
       "starts": [
         "Gain flying"
       ],
@@ -37,7 +35,6 @@
     },
     {
       "name": "ArcaneWardingBuff",
-      "source": "Spells.py:ArcaneWardingBuff.get_description",
       "starts": [
         "Each turn, gain [{shields} SH:shields]"
       ],
@@ -52,7 +49,6 @@
     },
     {
       "name": "WatcherFormBuff",
-      "source": "Spells.py:WatcherFormBuff.get_description",
       "starts": [
         "Each turn, cast Lightning Bolt at the farthest enemy in line of sight"
       ],
@@ -67,7 +63,6 @@
     },
     {
       "name": "PsychicParasiteBuff",
-      "source": "Spells.py:PsychicParasiteBuff.get_description",
       "starts": [
         "Take [{damage}:damage] [Arcane] damage each turn"
       ],
@@ -79,7 +74,6 @@
     },
     {
       "name": "ReviewedBuff54_5",
-      "source": "Spells.py:get_description",
       "starts": [
         "Each turn, pull enemies within [{radius}:radius] tiles 1 tile toward the owner"
       ],
@@ -90,7 +84,6 @@
     },
     {
       "name": "ReviewedBuff54_6",
-      "source": "Spells.py:get_description",
       "starts": [
         "Immune to debuffs"
       ],
@@ -101,7 +94,6 @@
     },
     {
       "name": "SlimeformBuff",
-      "source": "Spells.py:SlimeformBuff.get_description",
       "starts": [
         "Each turn, summon a Green Slime",
         "Each turn, summon a Red Slime",
