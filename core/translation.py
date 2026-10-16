@@ -56,6 +56,14 @@ class CatalogProvider:
 
 def composed_label(message, catalog):
     """Resolve names assembled by CommonContent and the custom-run menu."""
+    progress = re.fullmatch(r'(\n?)([A-Za-z]+) ([0-9]+/[0-9]+)', message)
+    tag_names = {'Arcane', 'Blood', 'Chaos', 'Conjuration', 'Dark', 'Dragon', 'Enchantment', 'Eye', 'Fire', 'Holy', 'Ice', 'Lightning', 'Metallic', 'Nature', 'Orb', 'Ritual', 'Slime', 'Sorcery', 'Translocation', 'Word'}
+    if progress and progress[2] in tag_names and catalog.get(progress[2]):
+        return progress[1] + catalog[progress[2]] + ' ' + progress[3]
+    if message.startswith('temporary '):
+        base = catalog.get(message[10:]) or composed_label(message[10:], catalog)
+        if base:
+            return '일시적으로 존재하는 ' + base
     if '\n' in message:
         return composed_description(message, catalog)
     touched = re.fullmatch(r'Touched by (.+)', message)

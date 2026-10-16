@@ -78,7 +78,10 @@ class TranslationEditor:
             return False
         if getattr(self, 'portal_aliases', {}).get(key):
             return False
+        if key in self._translated_values:
+            return False
         visible = self.translate_display(key)
+        visible = re.sub(r'\[asseticon:[^\]\r\n]+\]', '', visible)
         visible = re.sub(r'\{[^{}]*\}', '', visible)
         visible = re.sub(r'\[([^\]:]*):[^\]]*\]', r'\1', visible)
         # Strip only complete key combinations in explicit Korean key hints.
