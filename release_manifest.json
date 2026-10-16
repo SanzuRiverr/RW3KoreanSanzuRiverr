@@ -14,7 +14,7 @@
     "core/composition.py": "8918056b4a1d1019d66edc50c0dfb65205d8bfa5d1cf5bfab4393967f925d641",
     "core/config.py": "fbcc9f0dd91d4da136c9b800483ca7b655db3fe13254febe3886a2039eb03eb6",
     "core/custom.py": "8582b4fc59b373138775e9481876b5b1cfcf437fcec70795456509014e799e0b",
-    "core/editor.py": "3f334b3367388738de0e8f6a504be1f63a00e9fa3c4316f6c4bb391d88884a48",
+    "core/editor.py": "a9e0e7cb3fbe3f676b524614a74cf874df31abfc68a7176d2f65a94f10298587",
     "core/editor_store.py": "18a231b3b33e0bbd5c8839c5c37a8e15a1198820a3cc5d224a6d72d053f982a8",
     "core/exchange.py": "16b3e9ab5ef47c05d857669224f0402e15215937530cb5ec48126718db091588",
     "core/filters.py": "d4e26a525a5f81e529dfa3ef95f6509b8de178335f56cbc31b5b82861cb05fd0",
@@ -25,10 +25,10 @@
     "core/runtime.py": "224f789c133d53cb30d84a98c5c39675f1c64f05c76b9fccb34ab20734c8651e",
     "core/suggestions.py": "83e2a22d7287694fdc5a4e491499024bcf62fec14a7be134989f40e21368d556",
     "core/tags.py": "0bf837764f5a17dca1d776cd4d08040353b3573364dd35be7fbfe8cee99fd7c1",
-    "core/translation.py": "3d83eda3dd56a57b9d5538f6784221b89772230107c304ee3a7ba8532de200d6",
+    "core/translation.py": "fdb59c7391e90004c5f9c8ef676d6a96fb79ccceb16f9da0e8d2dd2b5087fd11",
     "preview.png": "30964bb994f5a5c9431eaa1922e188a6328fae6af0ad2148915eeb0c709bb3ed",
-    "proper_names.json": "3345f75cf5fd5c6880f859144518e9a79ff856a99a353453becfc7bd3df3215f",
-    "text_ko.tsv": "b9f5cea0f9861035b625ae9042f951634b60e656ca1b300e61c8ba7a34226c9c",
+    "proper_names.json": "1405b1f831205fec429daa469d4bfce961113cac94e4a3b4e4ec087545ec9232",
+    "text_ko.tsv": "3dd4f2973df564fbb0f74e8ca75a5424d6a7058830796eb5b8714ffe2dee36e8",
     "youtube_banner.png": "3ebe74fb484647e0aef0d5b13a07406117a72d81d5bc2f7675f9d2ca7851902f"
   }
 }

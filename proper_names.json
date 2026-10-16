@@ -17813,6 +17813,155 @@
       "kinds": [
         "effect"
       ]
+    },
+    {
+      "en": "Crown of Ea",
+      "ko": "에아의 왕관",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Death Fob",
+      "ko": "죽음의 회중시계",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Tzango's Cleaver",
+      "ko": "잔고의 식칼",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Orb of Explosions",
+      "ko": "폭발의 구슬",
+      "kinds": [
+        "spell",
+        "unit"
+      ]
+    },
+    {
+      "en": "Motion Sensors",
+      "ko": "동작 감지기",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Detonator",
+      "ko": "기폭 장치",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Crossfire",
+      "ko": "교차 사격",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Supercritical",
+      "ko": "초임계",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Orb of Reflection",
+      "ko": "반사의 구슬",
+      "kinds": [
+        "spell",
+        "unit"
+      ]
+    },
+    {
+      "en": "Cursed Reflection",
+      "ko": "저주받은 반사",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Inverted Mirror",
+      "ko": "뒤집힌 거울",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Shattered Orb",
+      "ko": "산산조각 난 구슬",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Prismatic Reflection",
+      "ko": "무지갯빛 반사",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Ritual of Acceleration",
+      "ko": "가속화 의식",
+      "kinds": [
+        "spell"
+      ]
+    },
+    {
+      "en": "Constellation Cloak",
+      "ko": "별자리 망토",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Masseter's Mace",
+      "ko": "마세터의 철퇴",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Acanthine Armillary",
+      "ko": "가시 혼천의",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Empyrean Astrolabe",
+      "ko": "천상의 천체 관측기",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Glaive of Gorias",
+      "ko": "고리아스의 월도",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Flame of Findias",
+      "ko": "핀디아스의 불꽃",
+      "kinds": [
+        "equipment"
+      ]
+    },
+    {
+      "en": "Mazer of Murias",
+      "ko": "무리아스의 술잔",
+      "kinds": [
+        "equipment"
+      ]
     }
   ]
 }

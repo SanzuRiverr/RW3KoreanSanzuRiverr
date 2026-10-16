@@ -1,1 +1,1 @@
-"""Rift Wizard 3 Korean translation by SanzuRiverr; no import side effects."""
+"""Internal implementation modules; installed by the entry point only."""

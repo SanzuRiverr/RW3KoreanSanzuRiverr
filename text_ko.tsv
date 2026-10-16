@@ -2114,8 +2114,8 @@ The Gate and the Key	문과 열쇠
 Once per Rift, if you complete the ritual while standing atop it, an allied [fiend:demon] will come forth from that location every 6 turns until the realm is complete	균열마다 1회, 그 위에 서서 의식을 완료하면, 차원이 완료될 때까지 6턴마다 그 위치에서 아군 [마족:demon]이 나타난다
 Grand Ritual	대의식
 Rather than a single [fiend:demon], summon one of each	단일 [마족:demon] 대신, 각각 1체씩 소환한다
-Summon a powerful [{demon}:demon] with the [Ritual Bound:ritual] buff\nIf the ritual is interrupted or [Ritual Bound:ritual] is removed before the ritual is complete, the [fiend:demon] joins the enemy team before disappearing [{max_channel}:max_channel] turns later	[의식 속박:ritual] 강화 효과를 지닌 강력한 [{demon}:demon]을 소환한다\n의식이 중단되거나, 완료 전에 [의식 속박:ritual]이 제거되면, 그 [마족:demon]는 적 팀에 합류한 뒤 [{max_channel}:max_channel]턴 후에 사라진다
-Summon a powerful [fiend:demon] with the [Ritual Bound:ritual] buff\nIf the ritual is interrupted or [Ritual Bound:ritual] is removed before the ritual is complete, the [fiend:demon] joins the enemy team before disappearing [{max_channel}:max_channel] turns later	[의식 속박:ritual] 강화 효과를 지닌 강력한 [마족:demon]을 소환한다\n의식이 중단되거나, 완료 전에 [의식 속박:ritual]이 제거되면, 그 [마족:demon]는 적 팀에 합류한 뒤 [{max_channel}:max_channel]턴 후에 사라진다
+Summon a powerful [{demon}:demon] with the [Ritual Bound:ritual] buff\nIf the ritual is interrupted or [Ritual Bound:ritual] is removed before the ritual is complete, the [fiend:demon] joins the enemy team before disappearing [{max_channel}:max_channel] turns later	[의식 속박:ritual] 강화 효과를 지닌 강력한 마족을 소환한다. 소환 대상은 현재 턴에 따라 바뀐다\n현재 소환 대상: [{demon}:demon]\n의식이 중단되거나, 완료 전에 [의식 속박:ritual]이 제거되면, 그 [마족:demon]은 적 팀에 합류한 뒤 [{max_channel}:max_channel]턴 후에 사라진다
+Summon a powerful [fiend:demon] with the [Ritual Bound:ritual] buff\nIf the ritual is interrupted or [Ritual Bound:ritual] is removed before the ritual is complete, the [fiend:demon] joins the enemy team before disappearing [{max_channel}:max_channel] turns later	[의식 속박:ritual] 강화 효과를 지닌 강력한 [마족:demon]을 소환한다\n의식이 중단되거나, 완료 전에 [의식 속박:ritual]이 제거되면, 그 [마족:demon]은 적 팀에 합류한 뒤 [{max_channel}:max_channel]턴 후에 사라진다
 Sniper	저격수
 Sniper's Trance	저격수의 집중
 Pass the turn to gain the [Sniper:metallic] buff\n[Sniper:metallic] grants a stacking +1 [range] and +[{damage}:damage] damage bonus to Blood Bullet, and removes its line of sight requirement\nAll stacks of [Sniper:metallic] are removed when you move	턴을 넘겨 [저격수:metallic] 강화 효과를 얻는다\n[저격수:metallic]는 "피의 탄환"에 누적되는 [사거리:range]+1과 +[{damage}:damage] 피해 보너스를 부여하고, 그 시야 요건을 제거한다\n이동하면 [저격수:metallic]의 모든 중첩이 제거된다
@@ -2141,7 +2141,7 @@ Engulfing Darkness	삼키는 어둠
 Orb of Night's aura will grow by +1 radius after it kills a number of units equal to its current radius	"밤의 구슬"의 오라는 현재 반경에 해당하는 수의 유닛을 처치하면 반경+1만큼 확장된다
 Dark Tendrils	암흑 촉수
 Tendrils of darkness drag the nearest [{num_targets}:num_targets] enemies along paths toward the Orb of Night each turn	매 턴, 어둠의 덩굴손이 가장 가까운 [{num_targets}:num_targets]명의 적을 경로를 따라 "밤의 구슬" 쪽으로 끌어당긴다
-Summon an Orb of Night\nEach turn, the orb inflicts [{minion_damage}:minion_damage] [Dark] damage and 2 turns of [blind] on enemies within [{radius}:radius] tiles\nOnly one Orb of Night may exist at a time\nCasting this spell while an Orb of Night exists will cause it to teleport to the selected location	"밤의 구슬"을 소환한다\n턴마다, 구슬은 [{radius}:radius]칸 이내의 적에게 [{minion_damage}:minion_damage]의 [암흑:dark] 피해와 2턴의 [실명:blind]을 부여한다\n"밤의 구슬"은 한 번에 하나만 존재할 수 있다\n"밤의 구슬"이 존재하는 동안 이 주문을 시전하면, 선택한 위치로 순간이동한다
+Summon an Orb of Night\nEach turn, the orb inflicts [{minion_damage}:minion_damage] [Dark] damage and 2 turns of [blind] on enemies within [{radius}:radius] tiles\nOnly one Orb of Night may exist at a time\nCasting this spell while an Orb of Night exists will cause it to teleport to the selected location	"밤의 구슬"을 소환한다\n턴마다, 구슬은 [{radius}:radius]칸 이내의 적에게 [{minion_damage}:minion_damage]의 [암흑:dark] 피해와 2턴의 [실명:blind]을 부여한다\n"밤의 구슬"은 한 번에 하나만 존재할 수 있다\n"밤의 구슬"이 존재하는 동안 이 주문을 시전하면, 그 구슬이 선택한 위치로 순간이동한다
 Assimilation	동화
 Damage Assimilation	피해 동화
 On taking damage, gain that much resistance to that damage type	피해를 받으면, 그 피해 종류에 대한 저항을 같은 양만큼 얻는다
@@ -2155,7 +2155,7 @@ Assimilation Mastery	동화 숙련
 Each time the Orb of Assimilation casts a spell, it lowers the active cooldown of its other spells by 1	"동화의 구슬"이 주문을 시전할 때마다 다른 주문들의 활성 재사용 대기시간이 1 감소한다
 Spell Exhaustion	주문 고갈
 Casting a [Sorcery] spell targeting the Orb of Assimilation grants you a permanent +10% bonus to that spell's [max charges:max_charges]	"동화의 구슬"을 대상으로 [마법:sorcery] 주문을 시전하면, 그 주문의 [최대 사용 횟수:max_charges]에 영구 +10% 보너스를 얻는다
-Summon an Orb of Assimilation\nWhen you manually cast a [Sorcery] spell targeting the Orb of Assimilation, it gains that spell on a 10 turn cooldown\nGranting a spell in this way consumes its remaining charges, reducing the Orb's cooldown by 1 for each charge consumed\nOnly one Orb of Assimilation may exist at a time\nCasting this spell while an Orb of Assimilation exists will cause it to teleport to the selected location	"동화의 구슬"을 소환한다\n"동화의 구슬"을 대상으로 [마법:sorcery] 주문을 수동으로 시전하면, 10턴 재사용 대기시간으로 그 주문을 얻는다\n이 방식으로 주문을 부여하면 그 남은 사용 횟수를 소비하며, 소비한 사용 횟수 하나마다 구슬의 재사용 대기시간이 1 감소한다\n"동화의 구슬"은 한 번에 하나만 존재할 수 있다\n"동화의 구슬"이 존재하는 동안 이 주문을 시전하면, 선택한 위치로 순간이동한다
+Summon an Orb of Assimilation\nWhen you manually cast a [Sorcery] spell targeting the Orb of Assimilation, it gains that spell on a 10 turn cooldown\nGranting a spell in this way consumes its remaining charges, reducing the Orb's cooldown by 1 for each charge consumed\nOnly one Orb of Assimilation may exist at a time\nCasting this spell while an Orb of Assimilation exists will cause it to teleport to the selected location	"동화의 구슬"을 소환한다\n"동화의 구슬"을 대상으로 [마법:sorcery] 주문을 수동으로 시전하면, 10턴 재사용 대기시간으로 그 주문을 얻는다\n이 방식으로 주문을 부여하면 그 남은 사용 횟수를 소비하며, 소비한 사용 횟수 하나마다 구슬의 재사용 대기시간이 1 감소한다\n"동화의 구슬"은 한 번에 하나만 존재할 수 있다\n"동화의 구슬"이 존재하는 동안 이 주문을 시전하면, 그 구슬이 선택한 위치로 순간이동한다
 Unraveling	해체
 Takes 33% of max HP as [Fire], [Lightning], or [Physical] damage each turn\nSpreads to adjacent allies on death	매 턴 최대 HP의 33%를 [화염:fire], [번개:lightning] 또는 [물리:physical] 피해로 받는다\n사망 시 인접한 아군에게 퍼진다
 Unraveling Detonation	해체의 기폭
@@ -2170,7 +2170,7 @@ When the Orb of Unraveling is destroyed, enemies within its radius are afflicted
 Accelerated Decay	가속 붕괴
 When the Orb of Unraveling takes damage, its aura activates	"해체의 구슬"이 피해를 받으면, 그 오라가 발동된다
 Locus of Chaos	혼돈의 중심
-Summon an Orb of Unraveling\nEach turn, the orb deals [Fire], [Lightning], or [Physical] damage to enemies within [{radius}:radius] tiles\nDamage dealt by orb's aura removes that much resistance to a random damage type\nOnly one Orb of Unraveling may exist at a time\nCasting this spell while an Orb of Unraveling exists will cause it to teleport to the selected location	"해체의 구슬"을 소환한다\n턴마다, 구슬은 [{radius}:radius]칸 이내의 적에게 [화염:fire], [번개:lightning], 또는 [물리:physical] 피해를 입힌다\n구슬의 오라가 입힌 피해는, 무작위 피해 종류에 대한 저항을 그만큼 제거한다\n"해체의 구슬"은 한 번에 하나만 존재할 수 있다\n"해체의 구슬"이 존재하는 동안 이 주문을 시전하면, 선택한 위치로 순간이동한다
+Summon an Orb of Unraveling\nEach turn, the orb deals [Fire], [Lightning], or [Physical] damage to enemies within [{radius}:radius] tiles\nDamage dealt by orb's aura removes that much resistance to a random damage type\nOnly one Orb of Unraveling may exist at a time\nCasting this spell while an Orb of Unraveling exists will cause it to teleport to the selected location	"해체의 구슬"을 소환한다\n턴마다, 구슬은 [{radius}:radius]칸 이내의 적에게 [화염:fire], [번개:lightning], 또는 [물리:physical] 피해를 입힌다\n구슬의 오라가 입힌 피해는, 무작위 피해 종류에 대한 저항을 그만큼 제거한다\n"해체의 구슬"은 한 번에 하나만 존재할 수 있다\n"해체의 구슬"이 존재하는 동안 이 주문을 시전하면, 그 구슬이 선택한 위치로 순간이동한다
 Anima	아니마
 Each turn, the Orb of Anima heals up to {num_targets} wounded allies in its line of sight\n\nThe Orb of Anima uses its own HP to heal its allies and will attempt to heal them to full health	턴마다 "아니마의 구슬"은 시야 내의 부상당한 아군 최대 {num_targets}체를 회복한다\n\n"아니마의 구슬"은 자신의 HP를 사용하여 아군을 회복하며, HP를 가득 채우려 시도한다
 Life Thief	생명력 도둑
@@ -2184,7 +2184,7 @@ Anima's Vengeance	아니마의 복수
 Units healed by the Orb of Anima gain [Bloodrage:blood] for a number of turns equal to the HP healed	"아니마의 구슬"에 의해 회복된 유닛은 회복된 HP와 동일한 턴 수만큼 [피의 격노:blood]를 얻는다
 Blood Thief	피의 도둑
 Each turn, the Orb of Anima drains up to [{minion_damage}:minion_damage] max HP from enemies within [{radius}:radius] tiles, healing itself for the amount drained	턴마다 "아니마의 구슬"은 [{radius}:radius]칸 이내의 적에게서 최대 [{minion_damage}:minion_damage]의 최대 HP를 흡수하여, 흡수한 만큼 자신을 회복한다
-Summon an Orb of Anima\nEach turn, the Orb of Anima heals up to [{num_targets}:num_targets] wounded allies in its line of sight\nThe Orb of Anima uses its own HP to heal its allies and will attempt to heal them to full health\nOnly one Orb of Anima may exist at a time\nCasting this spell while an Orb of Anima exists will cause it to teleport to the selected location	"아니마의 구슬"을 소환한다\n턴마다, "아니마의 구슬"은 그 시야 내의 부상당한 아군을 최대 [{num_targets}:num_targets]명 회복시킨다\n"아니마의 구슬"은 자신의 HP를 사용하여 아군을 회복시키며, 그들을 완전히 회복시키려 시도한다\n"아니마의 구슬"은 한 번에 하나만 존재할 수 있다\n"아니마의 구슬"이 존재하는 동안 이 주문을 시전하면, 선택한 위치로 순간이동한다
+Summon an Orb of Anima\nEach turn, the Orb of Anima heals up to [{num_targets}:num_targets] wounded allies in its line of sight\nThe Orb of Anima uses its own HP to heal its allies and will attempt to heal them to full health\nOnly one Orb of Anima may exist at a time\nCasting this spell while an Orb of Anima exists will cause it to teleport to the selected location	"아니마의 구슬"을 소환한다\n턴마다, "아니마의 구슬"은 그 시야 내의 부상당한 아군을 최대 [{num_targets}:num_targets]명 회복시킨다\n"아니마의 구슬"은 자신의 HP를 사용하여 아군을 회복시키며, 그들을 완전히 회복시키려 시도한다\n"아니마의 구슬"은 한 번에 하나만 존재할 수 있다\n"아니마의 구슬"이 존재하는 동안 이 주문을 시전하면, 그 구슬이 선택한 위치로 순간이동한다
 Prismatic Beam	무지갯빛 광선
 Arcane Refraction	비전 굴절
 Prismatic Beam also refracts when it encounters [petrified] or [glassed] units	"무지갯빛 광선"은 [석화:petrified] 또는 [유리화:glassed] 유닛에 닿아도 굴절한다
@@ -5889,3 +5889,62 @@ Additional random slimes can be any slime type and can repeat	추가 슬라임�
 unit	유닛
 At the beginning of each level, Void Drake gains a permanent [{bonus}%:arcane] bonus to [minion_health], [minion_damage], and [minion_range]\nThe bonus is equal to your [Arcane] mastery	각 레벨 시작 시, "공허의 드레이크" 주문의 [소환수 HP:minion_health], [소환수 피해:minion_damage], [소환수 사거리:minion_range]가 영구적으로 [{bonus}%:arcane] 증가한다\n증가율(%)은 당신의 [비전:arcane] 숙련도와 같다
 Every {interval} turns: trigger mutator rule	{interval}턴마다 변이 규칙 발동
+Shoot	사격
+Every [{freq}:cooldown] turns, inflict [berserk] on the connected group containing a random enemy in your line of sight for [{duration}:duration] turns\nTargeted units gain Burning Rage for [{duration}:duration] turns\nShot cooldown: [{cooldown}:cooldown] turns	[{freq}:cooldown]턴마다 시야 내 무작위 적과 연결된 무리 전체를 [{duration}:duration]턴 동안 [광폭화:berserk] 상태로 만든다\n대상들은 [{duration}:duration]턴 동안 타오르는 격노를 얻는다\n발사 재사용 대기시간: [{cooldown}:cooldown]턴
+<<<< PGUP	<<<< PGUP
+PGDN >>>>	PGDN >>>>
+Crown of Ea	에아의 왕관
+Death Fob	죽음의 회중시계
+Tzango's Cleaver	잔고의 식칼
+Orb of Explosions	폭발의 구슬
+Summon an Orb of Explosions\nEach turn, the Orb of Explosions deals [{minion_damage}:minion_damage] [Fire] damage to enemies in beams extending in all four cardinal directions\nOnly one Orb of Explosions may exist at a time\nCasting this spell while an Orb of Explosions exists will cause it to teleport to the selected location	폭발의 구슬을 소환한다\n매 턴, 구슬은 상하좌우 네 방향으로 광선을 발사하여 적에게 [{minion_damage}:minion_damage]의 [화염:fire] 피해를 입힌다\n폭발의 구슬은 한 번에 하나만 존재할 수 있다\n폭발의 구슬이 존재하는 동안 이 주문을 시전하면, 그 구슬이 선택한 위치로 순간이동한다
+Motion Sensors	동작 감지기
+Detonator	기폭 장치
+Crossfire	교차 사격
+Supercritical	초임계
+Each turn, deal [{damage} Fire:fire] damage to enemies in beams extending in all four cardinal directions	매 턴, 상하좌우 네 방향으로 광선을 발사하여 적에게 [{damage} 화염:fire] 피해를 입힌다
+The Orb of Explosions will fire whenever an enemy moves into a tile threatened by one of its beams	폭발의 구슬의 광선 경로에 적이 이동해 들어올 때마다 구슬이 광선을 발사한다
+Orb of Explosions' beams will trigger secondary explosions, dealing [{minion_damage}:minion_damage] [Fire] damage in a [{radius}:radius] tile burst on kills and on the first wall tile it encounters\nKills from explosions can cause cascading explosions\nExplosions from the detonated wall and slain units will melt walls	폭발의 구슬의 광선이 적을 처치하거나 처음으로 벽에 닿으면, 그 위치에서 2차 폭발을 일으켜 [{radius}:radius]칸 반경에 [{minion_damage}:minion_damage]의 [화염:fire] 피해를 입힌다\n폭발로 적을 처치하면 연쇄 폭발이 일어날 수 있다\n벽과 처치된 유닛에서 발생하는 폭발은 벽을 녹인다
+If one of the Orb of Explosions' beams would intersect with an ally, beams are also sent out from that ally	폭발의 구슬의 광선이 아군을 지나가면, 그 아군에게서도 광선이 발사된다
+When the Orb of Explosions is destroyed, it explodes\nThe explosion deals [Fire] and [Poison] damage equal to its max HP to enemies in an ever expanding burst	폭발의 구슬은 파괴되면 폭발한다\n폭발 범위는 계속 확장되며, 적에게 구슬의 최대 HP만큼 [화염:fire] 및 [독:poison] 피해를 입힌다
+Orb of Reflection	반사의 구슬
+Summon an Orb of Reflection\nWhen the Orb of Reflection takes damage, it deals that damage to enemies in its line of sight\nOnly one Orb of Reflection may exist at a time\nCasting this spell while an Orb of Reflection exists will cause it to teleport to the selected location	반사의 구슬을 소환한다\n반사의 구슬이 피해를 받으면, 구슬의 시야 내 적들에게 같은 피해를 입힌다\n반사의 구슬은 한 번에 하나만 존재할 수 있다\n반사의 구슬이 존재하는 동안 이 주문을 시전하면, 그 구슬이 선택한 위치로 순간이동한다
+Cursed Reflection	저주받은 반사
+Inverted Mirror	뒤집힌 거울
+Shattered Orb	산산조각 난 구슬
+Prismatic Reflection	무지갯빛 반사
+On taking damage, deal that damage to enemies in line of sight	피해를 받으면, 자신의 시야 내 적들에게 같은 피해를 입힌다
+When the Orb of Reflection kills an enemy, enemies with the same name are afflicted with [Shared Pain:blood] for [{duration}:duration] turns	반사의 구슬이 적을 처치하면, 처치된 적과 이름이 같은 적들이 [{duration}:duration]턴 동안 [공유된 고통:blood] 상태가 된다
+When the Orb of Reflection receives damage, it also deals damage of the opposite type of the damage received\n[Fire] swaps with [Ice]\n[Lightning] swaps with [Physical]\n[Dark] swaps with [Holy]\n[Poison] swaps with [Arcane]\n	반사의 구슬이 피해를 받으면, 받은 피해와 반대 종류의 피해도 추가로 입힌다\n[화염:fire] ↔ [얼음:ice]\n[번개:lightning] ↔ [물리:physical]\n[암흑:dark] ↔ [신성:holy]\n[독:poison] ↔ [비전:arcane]\n
+When the Orb of Reflection is destroyed, it shatters, inflicting permanent [hemorrhage:blood] on enemies in its line of sight	반사의 구슬은 파괴되면 산산조각 나며, 구슬의 시야 내 적들에게 영구적인 [과다 출혈:blood]을 부여한다
+If the Orb of Reflection is healed, it heals allies in its line of sight\nIf the Orb of Reflection gains [SH:shields], it grants that many [SH:shields] to allies in its line of sight	반사의 구슬이 회복되면, 구슬의 시야 내 아군들도 회복시킨다\n반사의 구슬이 [보호막:shields]을 얻으면, 구슬의 시야 내 아군들에게도 같은 수의 [보호막:shields]을 부여한다
+On the 12th turn of each level, and each turn for [{duration}:duration] turns after, cast Death Clock	각 레벨의 12번째 턴에 "죽음의 시계"를 시전하고, 이후 [{duration}:duration]턴 동안 매 턴 다시 시전한다
+Each turn, the enemy with the highest HP is put to [sleep] for [{duration}:duration] turns	매 턴, HP가 가장 높은 적을 [{duration}:duration]턴 동안 [수면:sleep] 상태로 만든다
+Ritual of Acceleration	가속화 의식
+Casting an [Orb] spell to relocate it refunds the spell's charge and causes it to take an extra turn	[구슬:orb] 주문을 시전해 기존 구슬을 이동시키면, 주문 사용 횟수를 돌려받고 그 구슬이 추가 턴을 얻는다
+Constellation Cloak	별자리 망토
+At the beginning of each level, cast Death Shock on up to [{num_targets}:num_targets] random adjacent enemies	각 레벨 시작 시, 인접한 적 중 무작위로 최대 [{num_targets}:num_targets]명에게 "죽음의 충격"을 시전한다
+Each turn, teleport your [Orb] allies to random locations within [{radius}:radius] tiles	매 턴, 아군 [구슬:orb]들을 각각 [{radius}:radius]칸 이내의 무작위 위치로 순간이동시킨다
+Masseter's Mace	마세터의 철퇴
+When an enemy moves into an adjacent tile, strike them with the mace, dealing [{damage}:damage] [Arcane] and [Physical] damage\nIf Masseter's Mace kills an enemy, cast Hungry Maw where they died	적이 당신에게 인접한 칸으로 이동해 오면, 철퇴로 공격하여 [{damage}:damage]의 [비전:arcane] 및 [물리:physical] 피해를 입힌다\n마세터의 철퇴로 적을 처치하면, 그 위치에 "굶주린 아가리"를 시전한다
+Acanthine Armillary	가시 혼천의
+When you cast a level 4 or higher [Arcane] spell, summon a Void Elder nearby	4레벨 이상의 [비전:arcane] 주문을 시전하면, 근처에 공허의 장로를 소환한다
+When you cast an [Orb] spell, summon Vines in empty tiles in a [{radius}:radius] tile radius around the target	[구슬:orb] 주문을 시전하면, 대상 주변 [{radius}:radius]칸 반경의 빈 칸에 덩굴을 소환한다
+Empyrean Astrolabe	천상의 천체 관측기
+When your [Orb] allies damage enemies, redeal half the damage dealt as [Holy] damage	아군 [구슬:orb]이 적에게 피해를 입히면, 그 피해의 절반을 [신성:holy] 피해로 다시 입힌다
+Glaive of Gorias	고리아스의 월도
+Flame of Findias	핀디아스의 불꽃
+At the beginning of each level, enemies have their resistances cut in half	각 레벨 시작 시, 적들의 저항이 절반으로 감소한다
+At the beginning of each level, each of your spells with the [damage] attribute gains bonus damage equal to its level\nThe [damage] bonuses from the Glaive of Gorias accumulate across levels	각 레벨 시작 시, [피해:damage] 속성이 있는 당신의 주문들은 각 주문의 레벨만큼 추가 피해를 얻는다\n고리아스의 월도로 얻은 [피해:damage] 보너스는 다음 레벨에서도 유지되며 누적된다
+Mazer of Murias	무리아스의 술잔
+Each turn, heal [10 HP:heal] and regain a charge of a random spell	매 턴, [HP 10:heal]을 회복하고 무작위 주문의 사용 횟수를 1회 회복한다
+When you manually cast Magic Missile, up to [{num_targets}:num_targets] [Arcane] allies in line of sight of the target cast Magic Missile at the target	"마법 미사일"을 수동으로 시전하면, 대상의 시야 내 [비전:arcane] 아군 최대 [{num_targets}:num_targets]명이 그 대상에게 "마법 미사일"을 시전한다
+[Stuns] affected enemies for [{duration}:duration] turns	영향받는 적을 [{duration}:duration]턴 동안 [기절:stuns]시킨다
+Death Clock may be channeled for up to [{max_channel}:max_channel] turns\nYour allies will no longer be harmed by Death Clock and will instead take an extra turn if they are in an affected tile\nIf you complete the ritual, your allies gain [Haste:translocation]	"죽음의 시계"를 최대 [{max_channel}:max_channel]턴 동안 지속 시전할 수 있다\n아군은 더 이상 "죽음의 시계"로 피해를 받지 않으며, 효과 범위 안에 있으면 대신 추가 턴을 얻는다\n의식을 완료하면 아군이 [가속:translocation]을 얻는다
+Pyrostatic Curse removes 50% [Fire] and [Lightning] resist from affected targets	"화염 정전기의 저주"는 대상의 [화염:fire] 및 [번개:lightning] 저항을 50% 감소시킨다
+When a Scourged [Demon] dies, cast a random [Holy] [Conjuration] spell you know at that location	"재앙"의 영향을 받는 [악마:demon]가 죽으면, 당신이 배운 [신성:holy] [소환:conjuration] 주문 중 하나를 무작위로 골라 그 위치에 시전한다
+Also teleports up to [{num_targets}:num_targets] random allies to locations near the destination	아군도 무작위로 최대 [{num_targets}:num_targets]명까지 목적지 근처로 순간이동시킨다
+If you Teleport adjacent to an enemy who could not see your original location, attempt to assassinate them, inflicting [{damage}:damage] [Arcane] damage and [{duration}:duration] turns of [silence]\nIf Teleport kills an enemy, the Teleport charge is refunded	원래 위치의 당신을 볼 수 없었던 적 옆으로 "순간이동"하면, 그 적의 암살을 시도하여 [{damage}:damage]의 [비전:arcane] 피해와 [{duration}:duration]턴의 [침묵:silence]을 부여한다\n"순간이동"으로 적을 처치하면 사용 횟수를 돌려받는다
+Ball Lightning	구형 번개
+On Pickup:\nSummon a Spark Spirit\nIt immediately takes 24 turns	획득 시:\n스파크 정령을 소환한다\n소환된 정령이 즉시 24턴 행동한다
+Sacrifice a component to learn a random spell that shares a tag with it\n\nComponents with more tags or on craft effects grant stronger spells	재료를 희생하여 그 재료와 태그를 공유하는 무작위 주문을 습득한다\n\n태그가 많거나 제작 시 효과가 있는 재료는 더 강력한 주문을 부여한다
